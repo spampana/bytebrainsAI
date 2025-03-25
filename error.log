@@ -1,3 +1,23 @@
+Command used
+-----------
+# Clone the repository
+git clone https://github.com/spampana/bytebrainsAI.git --branch bytebrains_agentic_ai_ipe
+cd ipe
+
+# Create virtual environment
+python -m venv .\venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Start the application
+python src/app.py
+
+
+
+
+Logs
+-----
 Admin@DESKTOP-Q96H2LT MINGW64 /d/GIT/Hackthon2025
 $ git clone https://github.com/spampana/bytebrainsAI.git --branch bytebrains_agentic_ai_ipe
 Cloning into 'bytebrainsAI'...
